@@ -29,6 +29,13 @@ This project lets you explore how platforms create dynamic backgrounds by extrac
   </tr>
 </table>
 
+## Workflow
+
+1. **Image Processing**: Load the image and flatten it to a 3D array (RGB channels).
+2. **Color Extraction**: Use K-Means Clustering to extract the dominant colors.
+3. **Colorfulness Metric**: Calculate the colorfulness metric for each cluster.
+4. **Color Glow**: Determine the color glow based on the colorfulness metric.
+
 ## Technologies Used
 
 - OpenCV — Image processing
