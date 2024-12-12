@@ -28,6 +28,7 @@ This project lets you explore how platforms create dynamic backgrounds by extrac
     <img src="img/clustered2.jpg" alt="Image 4" width="350"/></td>
   </tr>
 </table>
+
 ## Technologies Used
 
 - OpenCV — Image processing
