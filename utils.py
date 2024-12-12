@@ -158,11 +158,11 @@ class StreamlitColorBorderApp:
         
         with col1:
             st.subheader('Original Image')
-            st.image(image_array, use_column_width=True)
+            st.image(image_array, use_container_width=True)
         
         with col2:
             st.subheader('Image with Color Border')
-            st.image(bordered_image, use_column_width=True)
+            st.image(bordered_image, use_container_width=True)
         
         # Display color analysis
         st.subheader('Color Analysis')
@@ -185,7 +185,7 @@ class StreamlitColorBorderApp:
         col1, col2 = st.columns(2)
         with col1:
             st.subheader('Clustered Image')
-            st.image(clustered_image, use_column_width=True)
+            st.image(clustered_image, use_container_width=True)
         with col2:
             st.subheader('Color Percentages')
             st.pyplot(fig_percentages)
@@ -196,7 +196,7 @@ class StreamlitColorBorderApp:
         for i, color in enumerate(dominant_colors):
             color_display[:, i*100:(i+1)*100] = color
         
-        st.image(color_display, use_column_width=True)
+        st.image(color_display, use_container_width=True)
 
         col1, col2 = st.columns(2)
 
@@ -281,7 +281,7 @@ class StreamlitColorBorderApp:
                 time.sleep(frame_delay - diff)
             
             # Display bordered frame
-            video_placeholder.image(bordered_frame, channels='RGB', use_column_width=True)
+            video_placeholder.image(bordered_frame, channels='RGB', use_container_width=True)
             frame_idx += 1
         
         cap.release()
@@ -292,7 +292,7 @@ class StreamlitColorBorderApp:
         for i, color in enumerate(dominant_colors):
             color_display[:, i*100:(i+1)*100] = color
         
-        st.image(color_display, use_column_width=True)
+        st.image(color_display, use_container_width=True)
 
     def run(self):
         """
