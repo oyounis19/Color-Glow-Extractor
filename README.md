@@ -4,7 +4,7 @@ A simple tool to extract the color glow from images or videos. This process happ
 
 This project lets you explore how platforms create dynamic backgrounds by extracting the dominant color from images or videos. The extracted colors are used to generate **smooth gradient-like effects**, which can be applied in UI design or synced with devices like **LED strips** for immersive experiences.
 
-**Check out the live demo [here].**
+**Check out the live demo [here](https://glow-extractor.streamlit.app/).**
 
 ## Examples
 
