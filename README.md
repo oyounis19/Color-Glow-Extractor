@@ -10,15 +10,16 @@ This project lets you explore how platforms create dynamic backgrounds by extrac
 
 ### Images
 
-![Image Example](img/bordered.jpg)
-![Clustered Example](img/clustered.jpg)
-
----
-
-![Image Example](img//bordered2.jpg)
-![Clustered Example](img/clustered2.jpg)
-
-
+<table>
+  <tr>
+    <td><img src="img/bordered.jpg" alt="Image 1" width="200"/></td>
+    <td><img src="img/clustered.jpg" alt="Image 2" width="200"/></td>
+  </tr>
+  <tr>
+    <td><img src="img//bordered2.jpg" alt="Image 3" width="200"/></td>
+    <td><img src="img/clustered2.jpg" alt="Image 4" width="200"/></td>
+  </tr>
+</table>
 ## Technologies Used
 
 - OpenCV — Image processing
