@@ -12,12 +12,12 @@ This project lets you explore how platforms create dynamic backgrounds by extrac
 
 <table>
   <tr>
-    <td><img src="img/bordered.jpg" alt="Image 1" width="200"/></td>
-    <td><img src="img/clustered.jpg" alt="Image 2" width="200"/></td>
+    <td><img src="img/bordered.jpg" alt="Image 1" width="300"/></td>
+    <td><img src="img/clustered.jpg" alt="Image 2" width="300"/></td>
   </tr>
   <tr>
-    <td><img src="img//bordered2.jpg" alt="Image 3" width="200"/></td>
-    <td><img src="img/clustered2.jpg" alt="Image 4" width="200"/></td>
+    <td><img src="img//bordered2.jpg" alt="Image 3" width="300"/></td>
+    <td><img src="img/clustered2.jpg" alt="Image 4" width="300"/></td>
   </tr>
 </table>
 ## Technologies Used
