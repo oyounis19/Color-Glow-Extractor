@@ -8,24 +8,22 @@ This project lets you explore how platforms create dynamic backgrounds by extrac
 
 ## Examples
 
-### Images
-
 <table>
   <tr>
     <td>
     <p>Glowed Image</p>
-    <img src="img/bordered.jpg" alt="Image 1" width="350"/></td>
+    <img src="img/bordered2.jpg" alt="Image 1" width="350"/></td>
     <td>
     <p>Clustered Image</p>
-    <img src="img/clustered.jpg" alt="Image 2" width="350"/></td>
+    <img src="img/clustered2.jpg" alt="Image 2" width="350"/></td>
   </tr>
   <tr>
     <td>
     <p>Glowed Image</p>
-    <img src="img/bordered2.jpg" alt="Image 3" width="350"/></td>
+    <img src="img/bordered.jpg" alt="Image 3" width="350"/></td>
     <td>
     <p>Clustered Image</p>
-    <img src="img/clustered2.jpg" alt="Image 4" width="350"/></td>
+    <img src="img/clustered.jpg" alt="Image 4" width="350"/></td>
   </tr>
 </table>
 
