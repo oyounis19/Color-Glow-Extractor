@@ -140,6 +140,9 @@ class StreamlitColorBorderApp:
         if image_array.shape[-1] == 3:
             image_array = cv2.cvtColor(image_array, cv2.COLOR_BGR2RGB)
         
+        # Resize image
+        image_array = cv2.resize(image_array, (500, 500))
+
         # Extract dominant colors
         dominant_colors, percentages, clustered_image, colorfulness = ColorBorderProcessor.extract_dominant_colors(
             image_array, 
@@ -224,7 +227,7 @@ class StreamlitColorBorderApp:
         cap = cv2.VideoCapture(video_path)
         frame_colors = []
         frame_count = 0
-
+        
         while True:
             cap.set(cv2.CAP_PROP_POS_FRAMES, frame_count)
             ret, frame = cap.read()
