@@ -140,9 +140,6 @@ class StreamlitColorBorderApp:
         if image_array.shape[-1] == 3:
             image_array = cv2.cvtColor(image_array, cv2.COLOR_BGR2RGB)
         
-        # Resize image
-        image_array = cv2.resize(image_array, (500, 500))
-
         # Extract dominant colors
         dominant_colors, percentages, clustered_image, colorfulness = ColorBorderProcessor.extract_dominant_colors(
             image_array, 
